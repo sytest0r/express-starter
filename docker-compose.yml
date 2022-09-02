@@ -16,7 +16,7 @@ services:
   express:
     labels:
       shipyard.before: 'npx sequelize-cli db:migrate'
-      shipyard.route: '/express'
+      shipyard.route: '/'
     build:
       context: .
     environment:
