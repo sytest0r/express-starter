@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  postgres:
+  postgres_express:
     image: 'postgres:13.0-alpine'
     environment:
       POSTGRES_PASSWORD: 'obscure-password'
@@ -26,7 +26,7 @@ services:
       DB_HOST: 'postgres'
       DB_PORT: '5432'
     depends_on:
-      - 'postgres'
+      - 'postgres_express'
     ports:
       - '3000:3000'
     volumes:
