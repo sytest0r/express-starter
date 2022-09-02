@@ -21,3 +21,10 @@ and [Shipyard](https://shipyard.build) out of the box.
 - Run `make develop` at the root of this project.
 - Visit the app at http://localhost:3000.
 - Make your code changes! The app will reload whenever you save.
+
+## Shipyard installation instructions
+
+- Create a new application on Shipyard
+- Add this repo to the app
+- No additional service configuration needed
+- No env vars need to be set
